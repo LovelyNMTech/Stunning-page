@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	font-family: 'Roboto';
+}
+
+a {
+	text-decoration: none;
+    text-transform: capitalize;
+    color: #5243C0;
+}
+
+a:hover{
+    opacity: 0.9;
+}
+
+ul{
+    padding: 0%;
+    margin: 0%;
+}
+
+.account-button{
+    background: #FFD8DB;
+    border-radius: 20px;
+    padding: 14px 20px;
+}
+
+.account-button.blue {
+    background: #5243C0;
+    color: #ffffff;
+}
+
+.content{
+    max-width: 1100px;
+    padding: 0 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    padding: 10px 0;
+}
+
+header img{
+    width: 100px;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header ul li a{
+    color: grey;
+    margin: 0 15px;
+    padding-bottom: 5px;
+}
+
+header ul li a:hover, header ul li a.active{
+    border-bottom: 4px solid #5243C0;
+    color: #5243C0;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .content{
+    flex-direction: row-reverse;
+}
+
+main .banner, main.data{
+    padding: 30px;
+}
+
+main .banner{
+    text-align: center;
+}
+
+main .banner img{
+    width: 80%;
+    
+}
+
+main .data{
+    width: 400px;
+}
+
+main .data div{
+    display: flex;
+    margin: 20px 0 30px;
+}
+
+main .data div a{
+    margin-right: 20px;
+}
+
+main .data div button{
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 50%;
+    background-image: url("Images/arrow-up.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+main .data div button.second{
+    background-image: url("Images/arrow-down.png");
+}
+
+main .data ul li{
+    background-color: #fafafa;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 4px #f1f1f1;
+    transition: all 0.2s;
+}
+
+main .data ul li:hover,main .data ul li.active{
+    background: #ffffff;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+main .data ul li .title{
+    width: 130px;
+}
+
+main .data ul li .date{
+    color: #c6c5c3;
+}
+
+main .data ul li .tag{
+    width: 24px;
+    height: 14px;
+    border-radius: 10px;
+    background: red;
+    display: inline-block;
+}
+
+main .data ul li .tag.lightred{
+    background: #f2aab0;
+}
+
+main .data ul li .tag.green{
+    background: green;
+}
+
+main .data ul li .tag.orange{
+    background: rgb(247, 184, 68);
+}
