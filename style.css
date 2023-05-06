@@ -24,6 +24,7 @@ ul{
 
 .account-button{
     background: #FFD8DB;
+    color: #A389CC;
     border-radius: 20px;
     padding: 14px 20px;
 }
@@ -147,18 +148,18 @@ main .data ul li .tag{
     width: 24px;
     height: 14px;
     border-radius: 10px;
-    background: red;
+    background: #FD6534;
     display: inline-block;
 }
 
 main .data ul li .tag.lightred{
-    background: #f2aab0;
+    background: #FED7DA;
 }
 
 main .data ul li .tag.green{
-    background: green;
+    background:#9ED095;
 }
 
 main .data ul li .tag.orange{
-    background: rgb(247, 184, 68);
+    background: #FFE4A0;
 }
